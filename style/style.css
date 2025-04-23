@@ -9,3 +9,7 @@
     display: flex;
     justify-content: space-arround;
 }
+
+.escola-imagem {
+    width: 30%;
+}
