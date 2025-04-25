@@ -21,3 +21,9 @@
 .escola-imagem {
     width: 30%;
 }
+
+.escola{
+    background-image: linear-gradient(#424e61, #AC0D0D);
+    color: white;
+    display: flex;
+}
