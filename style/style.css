@@ -26,4 +26,7 @@
     background-image: linear-gradient(#424e61, #AC0D0D);
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
