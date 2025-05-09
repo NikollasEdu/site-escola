@@ -63,4 +63,8 @@
         flex-direction: colun
         text-align: center;
     }
+
+    .cabecalho-lista-item{
+        display: block;
+    }
 }
