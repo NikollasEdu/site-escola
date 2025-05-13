@@ -5,6 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: bisque;
+}
+
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -91,13 +100,35 @@ body{
     padding: 12px 0;
 }
 
-@media (max-width: 768px) {
+
+@medie (max-width: 768px) {
     .cabecalho{
-        flex-direction: colun
+        flex-direction: column;
         text-align: center;
     }
 
     .cabecalho-lista-item{
         display: block;
+        margin: 8px 0;
+    }
+
+    .escola{
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .escola-imagem{
+        width: 80%
+        margin-top: 16px;
+    }
+
+    .escola-conteudo{
+        width: 100%;
+    }
+
+    .estudantes-todos{
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        padding: 0 16px;
     }
 }
