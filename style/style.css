@@ -101,7 +101,7 @@ body{
 }
 
 
-@medie (max-width: 768px) {
+@media (max-width: 768px) {
     .cabecalho{
         flex-direction: column;
         text-align: center;
@@ -119,7 +119,7 @@ body{
     }
 
     .escola-imagem{
-        width: 80%
+        width: 80%;
         margin-top: 16px;
     }
 
